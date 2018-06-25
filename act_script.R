@@ -57,7 +57,7 @@ for(i in which(!is.na(allc$high_act))) {
     allc[i,3] <- NA
   }
 }
-allc
+allc 
 
 names(allc)[1] <- "INSTNM"
 allc$STABBR <- unlist(str_extract_all(allc$INSTNM, "[A-Z]{2}", simplify = TRUE))

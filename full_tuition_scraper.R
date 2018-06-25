@@ -14,7 +14,7 @@ out <- submit_form(session = pgsession, filled_form)
 
 
 cast <- html_nodes(out, "td td td:nth-child(1)")
-other_tuition <- html_text(cast)
+allc <- html_text(cast)
 
 #write.csv(other_tuition, "/Users/speegled/Dropbox/Lisa/college/all_colleges.csv", row.names = FALSE)
 #read.csv("/Users/speegled/Dropbox/Lisa/college/full_tuition.csv")
