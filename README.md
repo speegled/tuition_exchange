@@ -3,7 +3,7 @@ Information about colleges and universities that participate in tuition exchange
 
 Note that the data is from 2015/2016, so the costs will definitely be higher. 
 
-The main dataset is in data/full_data.csv. It contains 650 observations of the following variables
+The main dataset is in data/full_data.csv. It contains 647 observations of the following variables
 
 1. INSTNM - The name of the institution.
 2. STABBR - the state abbreviation for where the institution is located.
