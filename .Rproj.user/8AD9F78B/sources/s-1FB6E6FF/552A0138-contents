@@ -1,0 +1,16 @@
+allc <- read.csv("all_colleges_all_info.csv", stringsAsFactors = FALSE)
+head(allc, 20)
+allc$type.x[12] <- "Full Tuition"
+allc$TUITIONFEE_OUT <- as.integer(allc$TUITIONFEE_OUT)
+allc$COSTT4_A <- as.integer(allc$COSTT4_A)
+allc$netcost <- 0
+for(i in 1:398) {
+  if(allc$type.x[i] == "Full Tuition") allc$netcost[i] <- allc$COSTT4_A[i] - allc$TUITIONFEE_OUT[i]
+}
+head(allc)
+for(i in 1:398) {
+  if(allc$type.x[i] == "Standard Rate") allc$netcost[i] <- allc$COSTT4_A[i] - 36500
+}
+allc$netcost[1] <- 64536 - .8*50277
+head(select(allc, -type.x), 100)
+allc %>% filter(STABBR == "WI")
