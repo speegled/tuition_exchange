@@ -134,7 +134,6 @@
 "TrinityInternationalUniversity","IL",42670,19,23,26,NA,NA,NA,NA,NA,NA,NA,NA,"Full Tuition",NA,0
 "UniversityofStFrancis","IL",44628,21,NA,25,"29950","0.5053","37824","1642","21","25","470","630","Full Tuition",7874,12521.6
 "AndersonUniversity","IN",43450,21,NA,25,"27680","0.5962","39132","1760","21","25","470","570","Full Tuition",11452,13777.04
-"AndersonUniversity","IN",43450,21,NA,25,"27680","0.5962","39132","1760","21","25","470","570","Other Amount",3132,6450
 "ButlerUniversity","IN",57055,25,NA,30,"37010","0.7043","50538","4001","25","30","530","630","Full Tuition",13528,17380.28
 "CalumetCollegeofSaintJoseph","IN",22748.2,15,19,22,"17000","NULL","21260","837","NULL","NULL","NULL","NULL","Full Tuition",4260,4524.2
 "DePauwUniversity","IN",62667,25,NA,29,"44678","0.6476","56146","2229","25","29","550","670","Set Rate",20146,25667
@@ -145,7 +144,6 @@
 "IndianaInstituteofTechnology","IN",40290,18,NA,24,"25600","0.696","36184","6783","18","24","410","545","Full Tuition",10584,12846.8
 "ManchesterUniversity","IN",44028,19,NA,26,"29910","0.7063","40232","1240","19","26","440","568","Full Tuition",10322,11964.48
 "MarianUniversity","IN",47907,20,NA,26,"30500","0.5611","41872","1969","20","26","450","550","Full Tuition",11372,15211
-"MarianUniversity","IN",47907,20,23,26,"NULL","NULL","NULL","NULL","NULL","NULL","NULL","NULL","Full Tuition",NA,NA
 "OaklandCityUniversity","IN",39042,17,NA,22,"22800","0.5529","36490","548","17","22","410","510","Full Tuition",13690,14600.4
 "RoseHulmanInstituteofTechnology","IN",65058,28,NA,32,"45141","0.5779","58740","2231","28","32","630","750","Set Rate",22740,28058
 "SaintMaryoftheWoodsCollege","IN",45064,19,NA,23,"28932","0.5936","40799","579","19","23","410","500","Other Amount",4799,8064
@@ -249,9 +247,6 @@
 "StonehillCollegeMA","MA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
 "SuffolkUniversity","MA",57810,20,NA,26,"33934","0.8237","47730","5352","20","26","460","560","Full Tuition",13796,21432.752
 "WentworthInstituteofTechnology","MA",52048,22,NA,27,"32500","0.6667","48907","4288","22","27","520","630","Full Tuition",16407,17208
-"WentworthInstituteofTechnology","MA",52048,10,12,21,"NULL","NULL","NULL","NULL","NULL","NULL","NULL","NULL","Full Tuition",NA,NA
-"WentworthInstituteofTechnology","MA",52048,10,12,21,"NULL","NULL","NULL","NULL","NULL","NULL","NULL","NULL","Full Tuition",NA,NA
-"WentworthInstituteofTechnology","MA",52048,10,12,21,"NULL","NULL","NULL","NULL","NULL","NULL","NULL","NULL","Full Tuition",NA,NA
 "WesternNewEnglandUniversity","MA",52547,22,NA,27,"34030","0.8094","47793","2726","22","27","490","610","Full Tuition",13763,16066.84
 "WheelockCollege","MA",54725,18,NA,24,"33835","0.9542","47997","809","18","24","400","520","Full Tuition",14162,18453.88
 "WorcesterPolytechnicInstitute","MA",64846,27,30,32,"45590","0.4855","59110","4177","NULL","NULL","NULL","NULL","Set Rate",23110,27846
@@ -283,15 +278,13 @@
 "SaintMary'sUniversity","MN",56080,19,23,26,NA,NA,NA,NA,NA,NA,NA,NA,"Full Tuition",NA,0
 "StCatherineUniversity","MN",51245,19,NA,25,"35500","0.6739","47274","3265","19","25","485","545","Full Tuition",11774,13189
 "UniversityofNorthwesternStPaul","MN",43404,21,NA,27,"28730","0.8677","40044","1954","21","27","470","588","Other Amount",4044,6404
-"UniversityofStThomas","MN",46406,24,NA,29,"38105","0.8396","49000","6076","24","29","510","620","Full Tuition",10895,5557.44
-"UniversityofStThomas","MN",46406,24,NA,29,"38105","0.8396","49000","6076","24","29","510","620","Set Rate",13000,9406
+"UniversityofStThomas","MN",53440,24,NA,29,"38105","0.8396","49000","6076","24","29","510","620","Set Rate",13000,9406
 "BelhavenUniversity","MS",34850,18,21,23,"21816","0.508","30521","2653","NULL","NULL","NULL","NULL","Full Tuition",8705,11463.248
 "MillsapsCollege","MS",55280,23,NA,28,"35510","0.5264","48576","757","23","28","525","630","Full Tuition",13066,17213.28
 "MississippiCollege","MS",32302,21,NA,27,"16064","0.8248","28313","2898","21","27","490","600","Full Tuition",12249,15081.392
 "AvilaUniversity","MO",40320,18,NA,24,"26450","0.5089","36248","1369","18","24","450","540","Full Tuition",9798,11965.6
 "CentralMethodistUniversity","MO",35140,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
 "ColumbiaCollege","MO",34020,20,23,26,"8240","NULL","16501","13418","NULL","NULL","NULL","NULL","Full Tuition",8261,25186.72
-"ColumbiaCollege","MO",42580.65,20,23,26,"8240","NULL","16501","13418","NULL","NULL","NULL","NULL","Full Tuition",8261,33747.37
 "CulverStocktonCollege","MO",38850,18,NA,23,"24900","0.5589","35732","973","18","23","430","520","Full Tuition",10832,12157.2
 "DruryUniversity","MO",39441,23,NA,29,"24905","0.842","33183","3082","23","29","NULL","NULL","Full Tuition",8278,12742.84
 "FontbonneUniversity","MO",40776,20,NA,25,"23790","0.9676","33414","1086","20","25","NULL","NULL","Full Tuition",9624,15273.12
@@ -309,8 +302,6 @@
 "StephensCollege","MO",44068,20,NA,24,"29176","0.6779","42178","710","20","24","480","570","Other Amount",6178,7068
 "WebsterUniversity","MO",41119,21,NA,27,"25500","0.5612","40119","3150","21","27","510","615","Full Tuition",14619,13783
 "WestminsterCollege","MO",40510,21,NA,26,"23480","0.6367","36034","940","21","26","530","615","Full Tuition",12554,15339.44
-"WestminsterCollege","MO",48124.32,21,NA,26,"23480","0.6367","36034","940","21","26","530","615","Full Tuition",12554,22953.76
-"WestminsterCollege","MO",43929.92,21,NA,26,"23480","0.6367","36034","940","21","26","530","615","Full Tuition",12554,18759.36
 "WilliamJewellCollege","MO",47928,23,NA,28,"32330","0.4938","44659","1053","23","28","490","620","Full Tuition",12329,13270.24
 "WilliamWoodsUniversity","MO",38860,19,NA,26,"22160","0.7312","35423","968","19","26","445","520","Full Tuition",13263,15104.48
 "CarrollCollege","MT",48754,22,NA,27,"30754","0.641","42391","1428","22","27","490","600","Full Tuition",11637,15785.712
@@ -543,9 +534,7 @@
 "VillanovaUniversity","PA",68232,29,NA,32,"47616","0.4789","60556","6835","29","32","610","710","Set Rate",24556,31232
 "WashingtonJeffersonCollege","PA",60646,23,26,28,"43226","0.4347","53316","1307","NULL","NULL","NULL","NULL","Full Tuition",10090,14307.728
 "WaynesburgUniversity","PA",36000,20,NA,26,"22030","0.8561","31910","1422","20","26","455","550","Full Tuition",9880,12383.84
-"WestminsterCollege","PA",40510,20,NA,26,"34105","0.9404","44976","1103","20","26","470","480","Full Tuition",10871,3949.44
 "WestminsterCollege","PA",48124.32,20,NA,26,"34105","0.9404","44976","1103","20","26","470","480","Full Tuition",10871,11563.76
-"WestminsterCollege","PA",43929.92,20,NA,26,"34105","0.9404","44976","1103","20","26","470","480","Full Tuition",10871,7369.36
 "WidenerUniversity","PA",61218,21,NA,25,"41224","0.6799","53511","3244","21","25","470","570","Full Tuition",12287,17025.872
 "WilkesUniversity","PA",53966,10,NA,12,"32356","0.8173","44996","2358","NULL","NULL","470","598","Full Tuition",12640,19280.368
 "WilsonCollegePA","PA",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
@@ -556,10 +545,7 @@
 "RogerWilliamsUniversity","RI",52700,23,25,27,"31800","0.7848","49424","4536","NULL","NULL","NULL","NULL","Full Tuition",17624,18610.4
 "SalveReginaUniversity","RI",57746,23,24,26,"36740","0.7265","50971","2122","NULL","NULL","NULL","NULL","Set Rate",14971,20746
 "AndersonUniversity","SC",43450,21,NA,26,"24860","0.5494","38307","2632","21","26","470","590","Full Tuition",13447,16800.08
-"AndersonUniversity","SC",43450,21,NA,26,"24860","0.5494","38307","2632","21","26","470","590","Other Amount",2307,6450
-"CharlestonSouthernUniversity","SC",36100,20,NA,25,"23440","0.6021","35220","3112","20","25","460","550","Other Amount",-780,-900
 "CokerCollege","SC",39796,18,NA,22,"26568","0.4966","35111","1091","18","22","440","540","Full Tuition",8543,11315.104
-"ColumbiaCollege","SC",34020,18,NA,24,"28100","0.8913","39795","1385","18","24","410","520","Full Tuition",11695,3896.8
 "ColumbiaCollege","SC",42580.65,18,NA,24,"28100","0.8913","39795","1385","18","24","410","520","Full Tuition",11695,12457.45
 "ColumbiaInternationalUniversity","SC",34750,20,NA,26,"20430","0.34","32902","541","20","26","450","550","Full Tuition",12472,12849.04
 "ConverseCollege","SC",34540,20,NA,25,"16500","0.5775","28552","794","20","25","440","550","Full Tuition",12052,16852
@@ -609,11 +595,8 @@
 "UniversityofDallas","TX",54976,24,NA,30,"35800","0.64","49643","1336","24","30","540","650","Full Tuition",13843,16598.4
 "UniversityofMaryHardinBaylor","TX",39622,20,NA,26,"26100","0.804","37000","3173","20","26","470","570","Full Tuition",10900,11642.8
 "UniversityofStThomas","TX",46406,22,NA,27,"30310","0.7803","40040","1720","22","27","500","610","Full Tuition",9730,13913.68
-"UniversityofStThomas","TX",46406,22,NA,27,"30310","0.7803","40040","1720","22","27","500","610","Set Rate",4040,9406
 "UniversityoftheIncarnateWord","TX",46766,18,NA,23,"27798","0.9222","37501","6249","18","23","430","530","Full Tuition",9703,16966.544
 "WaylandBaptistUniversity","TX",32346,16,NA,23,"13680","0.9871","23563","3828","16","23","390","515","Other Amount",-12437,-4654
-"WestminsterCollege","UT",40510,22,NA,27,"31528","0.9595","41056","2135","22","27","503","618","Full Tuition",9528,6711.984
-"WestminsterCollege","UT",48124.32,22,NA,27,"31528","0.9595","41056","2135","22","27","503","618","Full Tuition",9528,14326.304
 "WestminsterCollege","UT",43929.92,22,NA,27,"31528","0.9595","41056","2135","22","27","503","618","Full Tuition",9528,10131.904
 "BenningtonCollege","VT",71810,26,29,32,"48220","0.6306","64019","683","NULL","NULL","NULL","NULL","Set Rate",28019,34810
 "ChamplainCollege","VT",58034,23,NA,29,"37536","0.6617","49702","3249","23","29","510","630","Set Rate",13702,21034

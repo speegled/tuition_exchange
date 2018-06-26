@@ -117,3 +117,47 @@ names(fff)[16] <- "net_cost_scorecard_2018_2019"
 names(fff)[17] <- "net_cost_2018_2019_best_estimate"
 
 write.csv(fff, "data/final_data.csv", row.names = FALSE)
+fff[duplicated.data.frame(select(fff, INSTNM, STABBR)),]
+filter(fff, INSTNM == "AndersonUniversity") # tuition and fees minus $1000; counting as full tuition
+fff <- fff[-136,]
+filter(fff, INSTNM == "AndersonUniversity") #SC is full tuition
+fff <- fff[-558,]
+filter(fff, INSTNM == "MarianUniversity") #IN is full
+fff[146,]
+fff <- fff[-146,]
+
+filter(fff, str_detect(INSTNM , "Wentworth"))
+fff[248:251,]
+fff[249:251,]
+fff <- fff[-249,] #repeated twice!
+
+filter(fff, str_detect(INSTNM , "StTh"))
+fff <- fff[-280,]
+fff[280,3] <- 53440 #Looked this up
+
+fff[285:288,]
+fff[286:287,]
+fff <- fff[-287,]
+
+fff[304:305,]
+fff <- fff[-304,] #ran this twice
+
+fff[536:540,]
+fff <- fff[-536,]
+fff <- fff[-537,]
+
+fff[602:604,]
+fff <- fff[-602,] #ran twice
+
+fff[546:547,]
+fff <- fff[-547,]
+
+
+fff[548:555,]
+fff <- fff[-548,]
+
+fff[595:600,]
+fff[597,]
+fff <- fff[-597,]
+
+write.csv(fff, "data/final_data.csv", row.names = FALSE)
