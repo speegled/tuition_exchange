@@ -21,4 +21,4 @@ The main dataset is in data/full_data.csv. There are errors and omissions in thi
 13. SATMT75 - sat math 75th percentile
 14. reward_type - tuition exchange reward type; either full, set rate or other
 15. net_cost_2017_2018 - total cost adjusted for inflation minus either tuition (full tuition) or set rate (set rate or other).
-16. net_cost_2018_2019_best_estimate - OK, this is my best estimate for what net cost will be if you get tuition exchange scholarship.
+16. net_cost - OK, this is my best estimate for what net cost will be in 2018/2019 if you get tuition exchange scholarship.
