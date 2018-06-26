@@ -64,7 +64,7 @@
 "WilmingtonUniversity","DE",18813.81,NA,NA,NA,"10430","NULL","17583","8674","NULL","NULL","NULL","NULL","Full Tuition",7153,7632.85
 "AmericanUniversity","DC",63092.55,26,NA,30,"43103","0.3502","58965","7300","26","30","560","650","Set Rate",22965,26092.55
 "CatholicUniversityofAmerica,The","DC",62482,22,25,28,NA,NA,NA,NA,NA,NA,NA,NA,"Other Amount",NA,0
-"GeorgeWashingtonUniversity","DC",70443,27,NA,32,"53518",NA,NA,NA,"27","32",NA,NA,NA,32980.4,0
+"GeorgeWashingtonUniversity","DC",70443,27,NA,32,"53518",NA,NA,NA,"27","32",NA,NA,"Set Rate",32980.4,33400
 "TrinityWashingtonUniversity","DC",37360,NA,NA,NA,"22780","0.9405","32002","1565","NULL","NULL","NULL","NULL","Full Tuition",9222,12939.84
 "BarryUniversity","FL",46584,17,NA,21,"28800","0.5506","44435","3703","17","21","420","510","Full Tuition",15635,15710.4
 "EckerdCollege","FL",59200,23,NA,28,"40020","0.7172","53423","2002","23","28","500","600","Full Tuition",13403,16298.56
@@ -199,7 +199,7 @@
 "CentenaryCollege","LA",52750,21,25,28,NA,NA,NA,NA,NA,NA,NA,NA,"Full Tuition",NA,0
 "LouisianaTechUniversity","LA",20844,21,NA,27,"25852","0.6384","18031","7629","21","27","490","630","Other Amount",-17969,-16156
 "LoyolaUniversityNewOrleans","LA",56986,22,NA,28,"37830","0.9031","49813","2572","22","28","480","610","Full Tuition",11983,16432.24
-"TulaneUniversity","LA",70764,29,30,32,NA,NA,NA,NA,NA,NA,NA,NA,"Other Amount",NA,0
+"TulaneUniversity","LA",70764,29,30,32,NA,NA,NA,NA,NA,NA,NA,NA,"Other Amount (75%)",NA,30700
 "MaineCollegeofArt","ME",49140,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
 "SaintJoseph'sCollegeofMaine","ME",48597.26,21,NA,26,"32620","0.7763","45418","1634","21","26","450","540","Full Tuition",12798,13628.62
 "UniversityofNewEngland","ME",54260,20,NA,29,"34760","0.8514","50090","2271","20","29","480","590","Full Tuition",15330,16997.28
@@ -460,7 +460,7 @@
 "WittenbergUniversity","OH",51856,22,25,28,"38090","0.7686","49790","1805","NULL","NULL","NULL","NULL","Set Rate",13790,14856
 "XavierUniversity","OH",51338.6,22,NA,27,"35080","0.7158","47980","4460","22","27","490","590","Full Tuition",12900,13732.84
 "OklahomaCityUniversity","OK",48332.97,22,NA,28,"30726","0.7017","45171","1791","22","28","480","610","Other Amount",9171,11332.97
-"UniversityofTulsa,The","OK",59385,26,29,32,NA,NA,NA,NA,NA,NA,NA,NA,"Full Tuition",NA,0
+"UniversityofTulsa,The","OK",59385,26,29,32,NA,NA,NA,NA,NA,NA,NA,NA,"Full Tuition",NA,19000
 "ConcordiaUniversityPortland","OR",43114,19,NA,24,"28510","0.5056","37264","1168","19","24","430","560","Full Tuition",8754,12551.28
 "GeorgeFoxUniversity","OR",48902,21,NA,27,"33142","0.7661","43901","2567","21","27","480","600","Full Tuition",10759,13373.776
 "LewisClarkCollege","OR",64186,27,29,31,"45104","0.6283","57656","2087","NULL","NULL","NULL","NULL","Set Rate",21656,27186
