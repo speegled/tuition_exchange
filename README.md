@@ -9,6 +9,7 @@ The main dataset is in data/full_data.csv. There are errors and omissions in thi
 2. STABBR - the state abbreviation for where the institution is located.
 2. cost_estimate - scraped or estimated total cost of attendance
 2. percent_award -the percentage of students admitted who receive tuition exvhange benefit
+2. TUITION_FEE_OUT - out of state tuition and fees
 9. UGDS - number of undergraduate students.
 7. ADM_RATE - admission rate from scorecard     
 3. low_act - the 25th percentile ACT score; either from scorecard or scraping.
