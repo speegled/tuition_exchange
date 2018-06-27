@@ -30,10 +30,7 @@ library(dplyr)
 pgsession <- html_session("https://google.com")
 pgform <- html_form(read_html(pgsession))
 for(i in 1:656) {
-  filled_form <- set_values(pgform[[1]], q = paste(allc$college[i], "ACT score"))
-  out <- submit_form(session = pgsession, filled_form)
-  
-  cast <- html_nodes(out, "span")
+
   tt <- html_text(cast) 
   act_range <- tt[str_detect(tt, "25th")] %>% str_extract_all("is [0-9]{2}") %>% unlist() %>% str_extract_all("[0-9]{2}") %>% unlist() %>% as.integer() %>% 
     sort() %>% unique()
