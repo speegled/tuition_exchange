@@ -20,3 +20,11 @@ The main dataset is in data/full_data.csv. There are errors and omissions in thi
 5. high_act - the 75th percentile ACT score;ither from scorecard or scraping.
 14. award_type - tuition exchange reward type; either full, set rate or other
 16. net_cost - OK, this is my best estimate for what net cost will be in 2018/2019 if you get tuition exchange scholarship.
+
+## R code
+The R code that was used to (help) create this data is in the R folder. It is included for semi-reproducibility. I used this project to improve my web scraping skills, and you can probably tell which scripts I wrote last. For example, I found the award type two different ways in two files, and the way at the end of `full_tution_scraper.R` is clearly better. I also should have done a better job of standardizing `INSTNM` throughout the code. There is very little documentation included; sorry future me. I also made many changes to the data by hand; I believe they are all documented in the commit history, but I'm not sure.
+
+Known issues:
+
+1. When scraping the total cost of attendance, I accidentally got the cost for in-state students in some cases.
+2. The `Other Tuition` award type was treated as Set Rate for the purposes of net cost estimation. Many colleges with Other Tuition give essentially full tuition minus some admin fee; it really jusrt varies. I have fixed some of these by hand, but certainly not all.
