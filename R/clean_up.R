@@ -94,4 +94,6 @@ dd2 <- left_join(fff, select(dd, -text))
 head(dd2)
 dd2$college <- str_remove(dd2$college, " - [A-Z]{2}$")
 select(dd2, college, STABBR, cost_estimate, percent_award, UGDS, ADM_RATE, low_act, mid_act, high_act, award_type, net_cost)
-w
+write.csv(select(dd2, college, STABBR, cost_estimate, percent_award, UGDS, ADM_RATE, low_act, mid_act, high_act, award_type, net_cost), "data/final_data.csv", row.names = FALSE)
+dd2 <- left_join(dd2, select(ppp, INSTNM, STABBR, TUITIONFEE_OUT))
+write.csv(select(dd2, college, STABBR, cost_estimate, percent_award, TUITIONFEE_OUT, UGDS, ADM_RATE, low_act, mid_act, high_act, award_type, net_cost), "data/final_data.csv", row.names = FALSE)
