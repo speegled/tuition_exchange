@@ -1,6 +1,6 @@
 # tuition_exchange
 
-The file data/full_data.csv is the main attraction of this repo. It contains information about the colleges and universities that participate in tuition exchange in one convenient csv file. 
+The file data/final_data.csv is the main attraction of this repo. It contains information about the colleges and universities that participate in tuition exchange in one convenient csv file. 
 
 Information about colleges and universities that participate in tuition exchange. The list of colleges and their participation levels was scraped from http://tuitionexchange.org. The costs and some admissions information associated with the various colleges was taken from the college scorecards https://collegescorecard.ed.gov/data/. For schools that don't participate in college scorecards, I wrote a script to scrape google searches for ACT scores associated with the college.
 
